@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+.header img {
+  height:150px;
+}
+.cabecera h1 {
+  text-align: center
+}
+
+.topnav {
+ overflow: hidden;
+ padding: 8px;
+ background-color: #dddddd;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.imagen img{
+
+    height:400px;
+}
+h2{
+ color:  #3E71BC
+}
+div.cuerpo p{
+  width: 800px;
+  text-align: justify;
+  border-style: dotted;
+  border-color: #DDDDDE
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+div.deportes{
+
+  margin-right: 10px;
+  text-align: justify;
+  border-style: dotted;
+  border-color: #DDDDDE
+}
+div.tecnologia{
+
+  margin-right: 10px;
+  margin-top: 25px;
+  text-align: justify;
+  border-style: dotted;
+  border-color: #DDDDDE
+}
+.borde{
+  border-bottom: solid;
+  border-color: #3E71BC;
+}
+
+h1,h2,p{
+    font-family: "Times New Roman", Times, serif;
+}
+.columna_n{
+  float: right;
+  width:25%;
+  padding: 15px;
+}
+
+div.noticia h3{
+  text-align:center;
+  background-color:#3E71BC;
+}
+
+
+@media screen and (max-width: 600px) {
+  .columna, .columna_izq {
+    width: 100%;
+  }
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
